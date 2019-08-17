@@ -1,0 +1,193 @@
+  
+  body{
+	font-family: 'Raleway'!important;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Raleway'!important;
+}
+
+.wrap{
+	max-width: 85%!important;
+	margin: auto!important;
+	}
+  
+
+/* Nav CSS */
+
+.navbar-brand {
+	font-weight: 900!important;
+	background-color: #000000!important;
+	padding: 0.3% 4%!important;
+	color: white!important;
+	border-radius: 900px;
+	transition: all .3s ease-in-out;
+   }
+
+	 .navbar-brand:hover {
+	background-color: #ffffff!important;
+	color: #da332a!important;
+   }
+
+
+.bg-red{
+  background-color: #da332a!important;
+}
+
+
+/* ------- */
+
+/* Home Page */
+
+  .section-1{
+	  background-image: url(../images/sectiononebg.jpg);
+	  padding: 12% 0%;
+	  text-align: right;
+	  background-position: center;
+	  background-size: cover;
+	  color: white;
+	 }
+	 
+  
+
+  .section-1 h1{
+	  color: #fff;
+	  padding-top: 1.5%;
+	  font-weight: 900;
+	  font-size: 8em;
+	  line-height: 1;
+	  position: relative;
+	  transition: all .3s ease-in-out;
+	  z-index: 2;
+	 }
+
+	  .section-1 h1:after {
+    content: ' ';
+    display: block;
+    width: 10%;
+    height: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -1%;
+    right: -20%;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+
+	  .section-1 h1:before {
+    content: ' ';
+    display: block;
+    width: 10%;
+    height: 100%;
+    background-color: #da332a;
+    position: absolute;
+    bottom: -1%;
+    right: -20%;
+    z-index: -1;
+    transition: all .4s ease-in-out;
+}
+  
+  
+  .section-1 h1 strong{
+	  color: #da332a;
+	  display: block;
+	  font-size: 1.1em;
+	  text-transform: uppercase;
+	  transition: all .3s ease-in-out;
+	 }
+
+	 .section-1 h1:hover{
+	 	 color: #da332a;
+	 }
+
+	 .section-1 h1:hover strong{
+	 	 color: #000;
+	 }
+
+	 .section-1 h1:hover:after{
+	 	 width: 120%;
+	 }
+
+	 .section-1 h1:hover:before{
+	 	 width: 130%;
+	 }
+  
+	 /* ---- */
+
+
+	 /* inner page */
+
+	
+
+	 .inner-sec{
+		background-image: url(../images/Untitled-1.jpg);
+		padding: 12% 0%;
+		background-position: center;
+		background-size: cover;
+		color: white;
+	   }
+
+	   .card .btn{
+		   width: 100%!important;
+		   background-color: #da332a;
+		   border-width: 0;
+		   font-weight: 900;
+	   }
+	   
+	   .contact-page{
+		   padding: 10% 5%;
+		   background-color: #00000096;
+		  }
+
+	   .contact-page .btn{
+		   display: block;
+		   width: 35%;
+		   margin: 1% auto 1% 0;
+		   background-color: #da332a;
+		   color: white;
+		   font-weight: 900;
+	   }
+
+	 /* ---- */
+
+	 /* Footer */
+
+  footer{
+	  padding: 1% 0% 0% 0%;
+	  text-align:center;
+	  background-color: #1d1d1d;
+	  
+	 }
+
+  .socials{
+	max-width: 20%!important;
+	margin: auto!important;
+	}
+
+  .socials a{
+	  display: block;
+	  width: 33.33%;
+	  float: left;
+	  color: white;
+	  font-size: 2em;
+	  transition: all .3s ease-in-out;
+  }
+
+  .socials a:hover{
+	  color: #da332a;
+  }
+
+  .copyright{
+	  padding: .5% 0%;
+	  margin-top: 1%;
+	  background-color: black;
+	  color: white;
+	 }
+  
+  @media screen and (max-width: 768px) {
+   
+  .main-content h1{
+	  text-align: center;
+  }
+  
+  }

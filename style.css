@@ -1,25 +1,33 @@
+.wrap{
+  max-width: 85%!important;
+}
 
-
-.main-content{
+.section-1{
 	background-color: #ffffffe3;
 	padding: 0%;
 	box-shadow: 2px 3px 12px #00000075;
 	margin: 1%;
 }
 
-.main-content h1{
+.navbar-brand {
+    font-weight: 900!important;
+}
+
+.section-1 h1{
 	color: #1a1a5a;
 	padding-bottom: 3px;
 	border-bottom: 4px solid #1a1a5a;
 	padding-top: 1.5%;
 }
 
-.main-content img{
-	padding: 2%;
-}
+
 
 body{
-	background: url(https://en.pimg.jp/039/767/205/1/39767205.jpg);
+	font-family: 'Raleway'!important;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Raleway'!important;
 }
 
 @media screen and (max-width: 768px) {

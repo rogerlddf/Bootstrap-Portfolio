@@ -4,8 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio | Roger Tamames</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/287e089e0b.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -13,40 +15,81 @@
 <body>
 
   <header id="masthead">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Roger Tamames</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-red">
+  <a class="navbar-brand" href="index.html">Roger Tamames</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link" href="#">About </a>
-      <a class="nav-item nav-link active" href="#">Portfolio <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link " href="#">Contact </a>
+      <a class="nav-item nav-link" href="index.html">About </a>
+      <a class="nav-item nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link " href="contact.html">Contact </a>
     </div>
   </div>
 </nav>
   </header>
-
-  <div class="container main-content">
-  <div class="row">
+<section class="inner-sec">
+  <div class="row wrap">
     <div class="col-sm-12">
       <h1>Portfolio</h1>  
      </div>
   </div>
-    <div class="row">
-    <div class="col-sm-12 col-md-6  col-lg-4 ">     <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/dogdog-profile_image-5550ade194780dfc-300x300.jpeg" width="100%;">
-</div>
-    <div class="col-sm-12 col-md-6  col-lg-4 ">     <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/dogdog-profile_image-5550ade194780dfc-300x300.jpeg" width="100%;">
-</div>
-  </div>
-</div>
+    <div class="row wrap">
 
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
-  </footer>
+      <div class="col">
+          <div class="card bg-dark" style="width: 100%;">
+              <img src="./assets/images/ezgif-1-7cb12b6c177c.gif" class="card-img-top" alt="...">
+              <div class="card-body ">
+                <h5 class="card-title">AteBall</h5>
+                <p class="card-text">AteBall takes all the stress of eating out w friends by picking the restuarant for you!</p>
+                <a href="https://rogerlddf.github.io/Group-project/" class="btn btn-primary" target="_blank">Go somewhere</a>
+              </div>
+            </div>
+      </div>
+
+      <div class="col">
+          <div class="card bg-dark" style="width: 100%;">
+              <img src="./assets/images/gifsearch.gif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Crystal Game</h5>
+                <p class="card-text">Simple Crystal Game</p>
+                <a href="https://rogerlddf.github.io/unit-4-game/" class="btn btn-primary" target="_blank">Go somewhere</a>
+              </div>
+            </div>
+      </div>
+
+      <div class="col">
+          <div class="card bg-dark" style="width: 100%;">
+              <img src="./assets/images/aact.gif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gif Search</h5>
+                <p class="card-text">Gif search app created using the Giphy API</p>
+                <a href="https://rogerlddf.github.io/gif-hw/" class="btn btn-primary" target="_blank">Go somewhere</a>
+              </div>
+            </div>
+      </div>
+    
+      
+   </div>
+</section>
+
+<footer>
+
+    <div class="row wrap">
+        <div class="col align-self-center socials">
+            <a href=""><i class="fab fa-youtube-square"></i></a>
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+          </div>
+      </div>
+
+  <div class="copyright">
+    Copyright &copy;
+  </div>
+</footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" rel="application" src="./assets/javascript/app.js"></script>
 </body>
 
 </html>
